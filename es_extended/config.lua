@@ -16,7 +16,7 @@ Config.Accounts = {
 	}
 }
 
-Config.StartingAccountMoney 	= {bank = 50000}
+Config.StartingAccountMoney 	= {money = 5000, bank = 50000}
 
 Config.DefaultSpawn 			= {x = -269.4, y = -955.3, z = 31.2, heading = 205.8}
 
@@ -25,7 +25,7 @@ Config.EnableSocietyPayouts 	= false -- pay from the society account that the pl
 Config.MaxWeight            	= 24   -- the max inventory weight without backpack
 Config.PaycheckInterval         = 7 * 60000 -- how often to recieve pay checks in milliseconds
 Config.EnableDebug              = false -- Use Debug options?
-Config.EnableDefaultInventory   = true -- Display the default Inventory ( F2 )
+Config.EnableDefaultInventory   = false -- Display the default Inventory ( F2 )
 Config.EnableWantedLevel    	= false -- Use Normal GTA wanted Level?
 Config.EnablePVP                = true -- Allow Player to player combat
 
